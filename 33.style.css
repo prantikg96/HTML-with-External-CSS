@@ -1,0 +1,121 @@
+/* li:first-child{
+    color: red;
+    font-size: 25px;
+} */
+
+/* li:last-child{
+    color: green;
+    font-size: 30px;
+} */
+
+/* li:nth-child(5){
+    color: red;
+    font-size: 25px;
+} */
+
+li:nth-child(odd){
+    color: blue;
+    font-size: 50px;
+}
+
+li:nth-child(even){
+    color: violet;
+    font-size: 30px;
+}
+
+/*li:nth-child(2n+1){
+    color: violet;
+    font-size: 30px;
+}*/ /* 2n means multiples of 2. */
+
+li:nth-last-child(8){
+    color: green;
+    font-size: 25px;
+}
+
+/* li:nth-last-of-type(9){
+    color: blue;
+    font-size: 60px;
+} */
+
+#dolby:only-child{
+    color:orangered;
+    text-decoration: underline;
+}
+
+div:empty {
+    outline: 2px solid deeppink;
+    height: 1em;
+  }
+
+.textInput1:focus{
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+}
+
+input:checked{
+    box-shadow: 0px 0px 0px 5px green;
+}
+
+/* input:disabled{
+    box-shadow: 0 0 0 5px green;
+} */ /* will remain as default */
+
+.textInput1:enabled{
+    background-color: green;
+}
+
+:disabled{
+    outline: 2px solid deeppink;
+    background-color: gray;
+    color: yellowgreen;
+}
+
+:required{
+    /* border: 2px dotted red; */
+    /* background-color: yellow; */
+    outline: 2px solid deeppink;
+    /* box-shadow: 4px 4px 20px rgba(200, 0, 0, 0.85); */
+}
+
+.textInput2:optional{
+    box-shadow: 5px 5px 25px blue;
+}
+
+:target{
+    border: 2px solid red;
+    background-color: aqua;
+}
+
+/* 
+Pseudo classes have 3 parts: Link:, Common, Form.
+
+    Link:
+    :link
+    :hover
+    :visited
+    :active
+    :target
+
+    Common:
+    :first-child
+    :last-child
+    :nth-child()
+    :nth-last-child()
+    :nth-last-of-type()
+    :only-child
+    :empty
+
+    Form:
+    :focus
+    :checked
+    :disabled
+    :enabled
+    :required
+    :optional
+
+    :focus only works with 'input'.
+
+    Pseudo classes are represented as ':checked', while pseudo elements are represented as '::after'.
+*/

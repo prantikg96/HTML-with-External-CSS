@@ -1,0 +1,37 @@
+.div1{
+    background-color: chocolate;
+    width: 400px;
+    height: 150px;
+    border: 20px solid black;
+    padding: 50px;
+    /* box-sizing: content-box;  works as default*/
+    box-sizing: border-box;
+}
+.div2{
+    background-color: blueviolet;
+    width: 400px;
+    height: 150px;
+    border:10px solid black;
+    padding:50px;
+    box-sizing:border-box;
+}
+
+/* 
+    box-sizing: (For example, lets take .div1 class)
+    This property allows us to include the padding(padding: 50px;) and border(border: 20px solid black;) in an element's total width(width: 400px;) and height(height:150px).
+
+    Without box-sizing property, total width of .div is
+    = actual width or width + padding-left + padding-right + border-left + border-right
+    = 400px + 50px + 50px + 20px + 20px
+    = 540px
+
+    Similarly, without box-sizing property, total height of .div is
+    = actual height or height + padding-top + padding-bottom + border-top + border-bottom
+    = 150px + 50px + 50px + 20px + 20px
+    = 290px
+
+    Same implies with height:150px too, just like width property.
+
+    Now, with box-sizing property,
+    total width of content(including padding=50px & border=50px) becomes 400px, i.e., by applying this property, it makes bound to follow the property -> width:400px. The inner content, i.e, "Div-1" width becomes 260px. "box-sizing:border-box" property along with its value, helps to adjust the total width of content within 400px.
+*/

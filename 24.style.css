@@ -1,0 +1,45 @@
+img{
+    /* filter: blur(5px); */
+    /* filter: brightness(20%); */
+    /* filter: contrast(500%); */
+    /* filter: drop-shadow(10px 10px 15px red); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(100deg); */
+    /* filter: invert(80%); */
+    /* filter: opacity(40%); */
+    /* filter: saturate(20000%); */
+    /* filter: sepia(50%); */
+    /* filter: none; */
+
+    /* shorthand */
+    filter: blur(5px) brightness(100%) contrast(200%) drop-shadow(10px 10px 15px red) grayscale(100%) hue-rotate(100deg) invert(80%) opacity(40%) saturate(20000%) sepia(50%);
+}
+
+
+
+/* 
+Filter property is mainly used in images. There are 12 values of filter property.
+1.blur(5px)
+
+2.brightness(100% is default. below 100%, brightness decreases, and above 100% brightness increases).
+
+3.contrast(100% is default. below 100%, brightness decreases, and above 100% brightness increases).
+
+4.drop-shadow(10px 10px 15px red) => works similarly s box-shadow.
+
+5.grayscale(ranges from 0-1, where 0 means colourful and 1 means grayed. also in %, it will be from 0-100% where 0% means colourful and 100% means grayed).
+
+6.hue-rotate(360deg is default. ranges from 0-360deg. it will change the color of image).
+
+7.invert(ranges from 0-100%. it looks like negative films of old cameras).
+
+8.opacity(100% is default. ranges from 0-100%. it makes the image transparent).
+
+9.saturate(100% is default. ranges from 0% - 100% - infinite %. it makes the image saturated).
+
+10.sepia(100% is default. ranges from 0-100%.)
+
+11.none => default
+
+12.url(The SVG filter applied to this element, by typing manually an XML file).
+*/

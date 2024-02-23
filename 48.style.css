@@ -1,0 +1,140 @@
+@keyframes forLogo{
+    /* from{ starting point */
+        /* background-color: red; */
+        /* width: 350px; */
+    /* } */
+
+    /* to{ ending point */
+        /* background-color: blue; */
+        /* width: 300px; */
+    /* } */
+
+    0%{
+        background-color: brown;
+        width: 320px;
+    }
+
+    25%{
+        background-color: green;
+        width: 340px;
+    }
+
+    50%{
+        background-color: red;
+        width: 360px;
+    }
+
+    75%{
+        background-color: blue;
+        width: 380px;
+    }
+
+    100%{
+        background-color: yellow;
+        width: 300px;
+    }
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 50px auto;
+    border-radius: 50%; /*to make a circle, always use same values for width & height.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+
+    animation-name: forLogo;
+    animation-duration: 2s;
+    /* animation-duration: 2s; can be divided into as much parts as we want. it can be done by replacing 'from' with 0% & 'to' with 100%. so as given duration is 2s, so '0%' will work for first 1s & 100% will work for next 1s. */
+
+    /* animation-iteration-count: 4; */ /*limited to 4 times*/
+    animation-iteration-count: infinite; /*will animate for infinite times*/
+}
+
+@keyframes forLogo2{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        top: 200px;
+    }
+    100%{
+        left: 500px;
+        top: 0px;
+    }
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    margin: 50px auto;
+    border-radius: 50%; /*to make a circle, always use same values for width & height.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    position: relative;
+
+    animation-name: forLogo2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    /* animation-direction: alternate; */
+    animation-direction: alternate-reverse;
+
+    /* animation-delay: 0.5s; */
+
+    animation-play-state: running;
+    /* animation-play-state: paused; */
+
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    animation-timing-function: ease-in-out;
+    /* animation-timing-function:linear; */
+}
+
+.box2:hover{
+    animation-play-state: paused;
+    width: 1200px;
+    color: black;
+    background-color: blueviolet;
+}
+
+/* for using with shorthand */
+
+@keyframes forLogo3{
+    0%{
+        background-color: red;
+    }
+    100%{
+        width: 800px;
+    }
+}
+
+.box3{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    margin: 100px ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+
+    animation: forLogo3 2s ease-in-out 0.5s infinite alternate;
+}
+
+
+/* 
+For animations, we use a method called '@keyframes'.
+*/

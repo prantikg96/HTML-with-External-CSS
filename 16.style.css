@@ -1,0 +1,37 @@
+#box{
+    width:600px;
+    border: 2px solid red;
+    margin: 50px auto;
+    text-align: center;
+}
+/* nested seletor  */
+#box p{
+    /* font-size:25px;
+    font-weight: 400;
+    font-style:oblique;
+    font-variant:small-caps;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+    /* short-hand property for above (not recommended, though, as, if not maintainted serially, it will not work)*/
+    font:oblique small-caps bold 30px monospace;
+}
+
+/* #box h1{
+    font-family: monospace;
+    font-size: 80px;
+    font-weight: bold;
+} */
+
+/* 
+Nested selector: here 'box' is an id of div which contains p. so we write is as box[space]p.
+
+'font-size' values: in px or in em/rem or in %.
+
+'font-weight'  values: bold, bolder, lighter, 100-1000.
+
+'font-style' values: normal, italic, oblique(name as italic, but if we download fonts from google and italics doesn't work, then oblique will work).
+
+'font-variant' value: small-caps. => this property is new in CSS3.
+
+font-family: there my many types of inbuild font-family values in VS Code;
+*/

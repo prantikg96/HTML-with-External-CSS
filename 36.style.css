@@ -1,0 +1,43 @@
+:root{
+    --initialColor:blue;
+    --buttonColor:aqua;
+    --textColor:red;
+}
+
+.func{
+    /* background-color: green; */
+    background-color: var(--initialColor);
+    height: 250px;
+    /* color: yellowgreen; */
+    color: var(--textColor);
+    width: calc(100% - 200px);
+    margin-bottom: 20px;
+}
+
+button{
+    /* background-color: blueviolet; */
+    background-color: var(--buttonColor);
+    /* color: white; */
+    color: var(--textColor);
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* 
+CSS functions:
+    rgba()
+    url()
+    linear-gradient()
+    var()
+    calc()
+
+    :root => pseudo-class selector matches the root element of a document's hierarchical structure. In HTML, :root represents the <html> element and is the same as the html selector, but with a higher specificity. Its mainly used for maintaining a brand color or property. 
+
+    How to declare variables and its values in :root?
+    Eg.:
+    --initialColor:blue;
+    --buttonColor:aqua;
+    --textColor:black;
+*/

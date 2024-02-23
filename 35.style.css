@@ -1,0 +1,86 @@
+h1{
+    background-color: aqua;
+    text-decoration:underline;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.parent{
+    width: 600px;
+    border: 2px solid red;
+    margin: auto;
+    padding: 50px;
+    position: relative; /*child absolute holey seta tar attio khujbe.*/
+}
+
+.childDiv1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+
+    /* position:relative;
+    right: -80px;
+    bottom: -70px; */
+
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+
+.childDiv2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    display: inline-block;
+
+    /* position:relative;
+    left: 150px;
+    top: 150px; */
+
+    /* position: absolute;
+    top: 0px;
+    right: 0px; */
+
+    /* position: fixed;
+    bottom: 100px;
+    right: 500px; */
+
+    position:absolute;
+    top: 0;
+    right: 0%;
+}
+
+.childDiv3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    display: inline-block;
+
+    position: relative;
+    bottom: 50;
+    left: 50%;
+}
+
+
+/* 
+'position' values:
+a. static(default).
+
+b. relative(mostly used). -> shorey jai but tar jaiga ta theke jai. onno keu eshe dokhol korte pare na.
+
+c. absolute(mostly used).-> content ta tar place chere uporer dike veshe jaai and tar jaigai onno element boshte pare.
+
+d. fixed(works like c,but gets fixed to a place, even when scrolling. not used much).
+
+e. sticky(works almost like c, not used much).
+
+helper properties to use 'position':
+a. left.
+b. right.
+(a & b cant be used together).
+c. top.
+d. bottom.
+(c & d cant be used together).
+*/

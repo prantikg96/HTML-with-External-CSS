@@ -1,0 +1,25 @@
+/* h1{
+    color: blue;
+} */
+
+/* #helloID
+{
+    color: blue;
+}
+
+.helloCls{
+    color: red;
+} */
+
+
+h1{
+    color: blue !important;
+}
+
+
+/* 
+CSS always gives 1st priority to 'id->#', then 'class->.'.
+
+!important: giving importance to something. used in cases where we use CSS plugins, or CSS frameworks. use as less as possible as it creates mess and doesnt work everywhere all the time.
+only use it, if & only if it is really needed, else not.
+*/

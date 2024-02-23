@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resize Property in CSS</title>
+    <link rel="stylesheet" href="27.style.css">
+</head>
+<body>
+    <div id="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quae animi optio perferendis fuga veniam minima architecto. Aliquid, et aliquam odit minus vero, sit exercitationem, vel nesciunt repellendus possimus porro expedita. Veritatis corporis explicabo saepe! Dolores provident consequatur nemo accusantium. Eius quidem dolorum odit debitis distinctio cumque quis inventore soluta ut harum laboriosam nesciunt, autem perferendis unde animi, dicta quasi? Quasi porro dolorum voluptate aperiam eligendi, fugiat assumenda perferendis nisi facilis est nulla voluptatum voluptates, nesciunt fugit omnis exercitationem, consequuntur saepe temporibus sint magnam? Sequi, id deserunt ratione, facilis iusto dolor saepe quaerat commodi molestiae aliquam consectetur laboriosam numquam reiciendis consequatur nobis iure debitis sint voluptatem. Fuga perspiciatis sint, quisquam accusamus praesentium velit! Neque ut odio minima alias quas reprehenderit debitis ex corrupti tempora qui, accusantium sapiente beatae sint a quod. Perferendis explicabo pariatur rem assumenda. Praesentium accusantium illum ex dignissimos alias tempora, labore commodi error qui facere. Dignissimos cumque quod ut sit provident dolorum veritatis error tempora nihil. Corporis reprehenderit natus voluptatem officia corrupti eligendi omnis nobis ullam harum possimus, eaque, rem temporibus. Vel magnam in inventore deleniti veritatis earum distinctio neque aut, architecto adipisci nam. Nostrum, quia dolorem odit dicta a rem harum, ipsum quasi debitis quam velit magnam exercitationem veniam. Tempore rerum mollitia eum sequi fugit facilis laudantium voluptatem quisquam, accusamus expedita ab illo, inventore soluta, dolor doloribus. Ratione asperiores nisi voluptatibus quis. Rerum hic harum voluptas est culpa laborum error itaque ratione suscipit quis ea, corporis odit iste dolorem tenetur consectetur sunt illo perspiciatis corrupti dolores.
+    </div>
+    
+    <div id="box2">
+        <form style="width:600px; margin:auto;">
+            <fieldset>
+                <legend>Personal Info</legend><br>
+    
+            <label for="Fname">First Name:</label>
+            <input type="text" name="first_name" id="Fname" placeholder="Enter your first name" required><br><br>
+    
+            <label for="Lname">Last Name:</label>
+            <input type="text" name="last_name" id="Lname" placeholder="Enter your last name" required><br><br>
+    
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass" placeholder="Enter your password"><br><br>
+    
+            <label for="mail_id">E-mail:</label>
+            <input type="email" name="mail" id="mail_id" placeholder="Enter your e-mail ID"><br><br>
+    
+            <label for="dob">DOB:</label>
+            <input type="date" name="DOB" id="dob"><br><br>
+    
+            <label for="file_upload">File:</label>
+            <input type="file" name="File_Upload" id="file_upload"><br><br>
+    
+            Gender:
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br><br>
+    
+            Choose your favourite color:
+            <input type="checkbox" name="RED" id="red" checked>
+            <label for="red">Red</label>
+            <input type="checkbox" name="BLUE" id="blue">
+            <label for="blue">Blue</label>
+            <input type="checkbox" name="GREEN" id="green">
+            <label for="green">Green</label>
+            <input type="checkbox" name="YELLOW" id="yellow">
+            <label for="yellow">Yellow</label><br><br>
+    
+            <label for="coLor">Color:</label>
+            <input type="color" name="Color" id="coLor"><br><br>
+    
+            Choose your Country:
+            <select name="country" id="">
+                <option value="india">India</option>            
+                <option value="bangladesh">Bangladesh</option>            
+                <option value="pakistan">Pakistan</option>
+                <option value="select_country" selected>Select your country</option>
+                <option value="nepal">Nepal</option>            
+                <option value="china">China</option>            
+                <option value="bhutan">Bhutan</option>            
+            </select><br><br>
+    
+            Choose your range: <br>
+            1<input type="range" min="1" max="100">100 <br><br>
+    
+            <label for="text_area">Type your message here:</label><br>
+            <textarea name="name_area" id="text_area" minlength="3" maxlength="100" cols="50" rows="10" placeholder="Enter your messages here...."></textarea><br><br>
+    
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+    
+        </fieldset>
+        </form>
+    </div>
+    <textarea class="area">
+    Only textarea tag is automatically resizable in html.
+    </textarea>
+</body>
+</html>

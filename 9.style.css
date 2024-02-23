@@ -1,0 +1,46 @@
+.div_margin1{
+    border:5px dashed aquamarine;
+    margin-bottom: 20px;
+}
+
+.div_margin2{
+    border:5px dotted #FF5500;
+    background-color: #f3bd0d;
+    /* margin-left: 100px;
+    margin-right: 50px;
+    margin-top:-100px; */
+
+    /* margin:-70px 50px; */
+    width:300px;
+    /* margin:auto; */
+    margin:100px auto;
+    /* margin:10px 10px 100px 100px; */
+}
+
+.div_margin3{
+    border:5px solid #f3bd0d;
+    margin-top:20px;
+
+}
+
+
+/* 
+for individual side margin properties:
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+for overall side margin in single line:
+    margin:80px;
+
+for top+bottom & left+right margin:
+    margin:100px 20px; OR margin:-70px 50px;
+
+for top, right, bottom, left margin in single property:
+    margin:70px 20px 50px 10px;
+
+to move the div/box to the center of page:
+    width:300px;
+    margin:auto; OR margin:100px auto;
+*/

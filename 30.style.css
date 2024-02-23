@@ -1,0 +1,31 @@
+#parent{
+    color: red;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+#link1{
+    color: teal;
+    border: inherit;
+}
+
+#link2{
+    color: inherit;
+    /* color: initial; default */
+}
+
+#link3{
+    /* color: blue; */
+    color: inherit;
+    border: inherit;
+}
+
+#link4{
+    /* color: cyan; */
+    color: initial;
+}
+
+/* 
+'initial' value: works by default of html.
+'inherit' value: if used in child selectors, then it with inherit the properties used in its parent selector.
+*/

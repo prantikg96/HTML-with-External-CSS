@@ -1,0 +1,22 @@
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:active {
+    color: orange;
+  }
+  
+  :target {
+    background-color: green;
+  }
+  

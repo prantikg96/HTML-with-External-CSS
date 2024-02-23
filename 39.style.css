@@ -1,0 +1,32 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    margin: 50px auto; /*top+bottom:50px & left+right:auto*/
+
+    /* transform: translate(50px,50px); */  /*50px->left to right, 0px->top to bottom*/
+    transition: 1s;
+
+    /*transform: scale(0.99);*/     /*scale means it multiplies width & height*/
+    /* transform: rotate(30deg); */
+}
+
+div:hover{
+    /* transform: translate(50px,50px); */
+    /* transform: scale(2); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: rotate(360deg); */
+    /* transform: skew(20deg); */
+    /* transform: skewX(20deg); */
+    /* transform: skewY(20deg); */
+
+    /* Shorthand */
+    transform: scale(1.9) rotate(360deg);
+}
+
+
+
+/* 
+We use transform: translate(Xpx, Xpx) instead of margin, because example is shown in div:hover{}.
+*/

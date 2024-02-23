@@ -1,0 +1,105 @@
+.text1{
+    margin:50px auto;
+    /* padding: 20px; */
+    border: 1px solid black;
+    width:500px;
+    height:270px;
+    
+    /*color:red;
+    /*text-align: left;    default*/
+    /*text-align:center;
+    text-align-last:justify;*/
+
+    /* text-align:justify;
+    text-indent:150px; */
+
+    /* direction:ltr;  default */
+    /* direction:rtl; */
+}
+
+img{
+    width: 100px;
+    border: 1px solid black;
+    vertical-align:baseline;  /*default*/
+}
+
+.text2{
+    border:2px solid #FF4100;
+    margin:50px auto;
+    width:600px;
+    height:290px;
+    text-align:justify;
+
+    /* text-decoration:line-through; */
+    /* text-transform:capitalize; */
+    /* word-spacing: 10px; */
+    /* letter-spacing: 5px; */
+    /* line-height: 30px; */
+    /* white-space:normal; */
+    /* word-wrap:break-word; */
+}
+
+h1{
+    text-shadow: 5px 5px 5px red;
+}
+
+.third_p{
+    border:2px solid black;
+    width: 200px;
+
+    writing-mode:vertical-lr;
+}
+
+.span1{
+    writing-mode:vertical-lr;
+}
+
+.fourth_p{
+    border:2px solid black;
+    width: 200px;
+
+    writing-mode:vertical-rl;
+}
+
+/* 
+    Properties on Text formatting:(shown in .text1 class)
+
+    'text-align' values => left, right, center, justify, start(works as left), end(works as right).
+    
+    'text-align-last' values => auto, left, right, center, justify.
+
+    direction:ltr; => default, left to right
+    direction:rtl; => right to left
+
+    For images within texts/lines:
+    'vertical-align' values => text-top(can also be written as 'top'), baseline(default), auto, text-bottom(can also be written as 'bottom'), middle, sub, super.
+
+    shown in .text2 class:
+    'text-decoration' values => underline, overline, none(default, but useful when working with links, as in case of links, underlines are shown by default), line-through.
+
+    'text-transform' values => uppercase, lowercase, capitalize(capitalizers first letter of each word), none.
+
+    word-spacing: 10px; to provide spacing between words.
+
+    letter-spacing: 5px; to provide spacing between letters.
+
+    line-height: 30px; to increase or decrease spacing between lines.
+
+    'white-space' values => 
+    pre(it works as 'pre' tag of HTML),
+    nowrap(texts will print in a single line, needs to use scroll-bar to view full text)
+    normal(works as default).
+
+    word-wrap:break-word;    when a word is too big & it goes outside the border in a single line, then the property 'word-wrap' with value 
+    break-word' is used.
+
+    shown in h1 selector:
+    text-shadow: 5px 5px 5px red;
+    first value of 5px works horizontally(can be -ve means, shadow will move left or +ve means, shadow will move right).
+    second value of 5px works vertically(can be -ve means, shadow will move up or +ve means, shadow will move bottom).
+    third value of 5px works as blur amount(on +ve value, starting from 0)
+    fourth value is the color of shadow.
+
+    'writing-mode' values => horizontal-tb(default), vertical-lr, vertical rl -> these 2 are working.
+    values that are present but not working -> sideways-lr, sideways-rl.
+*/

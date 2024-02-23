@@ -1,0 +1,56 @@
+body{
+    background-color: #1F1F1F;
+}
+
+table{
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+
+  /*  border-collapse: separate; default*/
+
+  border-collapse: separate;
+
+    /* border-spacing: 20px; we cant use margin here, so we need to use border-spacing */
+
+    border-spacing: 50px 100px; /*50px->vertical, 20px->horizontal*/
+
+    /* empty-cells:show; default  */
+    empty-cells:hide;
+
+    width: 500px;
+    table-layout: fixed;
+}
+
+th{
+    border: 2px solid black;
+    background-color: salmon;
+    height: 25px;
+
+    /* text-align: center; default */
+    /* text-align:left; */
+
+    /* padding: 20px; */
+}
+
+td{
+    border: 2px solid #231E67;
+    background-color: aquamarine;
+    width: 150px;
+    height: 20px;
+    
+    text-align: center;
+
+    /* padding: 20px; */
+    /* vertical-align: top; */
+    /* vertical-align: middle; default */
+
+    vertical-align: bottom;
+}
+
+caption{
+    /* caption-side: top; default */
+    caption-side: bottom;
+    border: 1px solid black;
+}
+
+/* Applying styles to thead wont work in CSS. */

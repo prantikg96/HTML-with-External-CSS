@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 1s;
+    
+}
+
+a:link{
+    /* background-color: aquamarine; */ /*bg color property should always be given in 'a' selector instead of 'a:link' selector*/
+    color: aqua;
+}
+
+a:visited{
+    color: blueviolet;  /*blueviolet is the default color when a link is once visited*/
+}
+
+a:hover{
+    color: blue;
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+a:active{
+    color: red;
+}
+
+/* 
+Stages of anchor tag:(these stages are to be followed sequentially as shown & not haphazardly, as its a good practice)
+1. a:link => its recommended to give bg color or font color in a:link selector. It shows the actual color set when the link is not yet visited.
+2. a:visited => once the link has been visited, whatever color is set, it will remain the same until browser's cookies gets cleared.
+3. a:hover => hover means moving the mouse cursor on the element, so that the element shows the designs and properties specified in a:hover.
+4. a:active => when we click & hold the text, it will show the property or design, specified in a:active.
+
+Properties:
+transition: 1s :-
+in 'a:hover' selector, transition works when we take the mouse cursor over the textarea.
+in 'a' selector, transition works when we take away the mouse cursor from the textarea.
+*/

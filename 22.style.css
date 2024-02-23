@@ -1,0 +1,28 @@
+div{
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 150px;
+    padding: 20px;
+    text-align:center;
+    margin: 50px auto;
+    background-color: green;
+
+    /* box-shadow: 10px 10px 5px gray; */
+    /* box-shadow: 10px 10px 5px 10px gray; */
+    /* box-shadow: 10px 10px 5px 10px gray inset; */
+    /* box-shadow: 10px 10px 5px 10px gray, -10px 10px 5px 10px gray; */
+    box-shadow: 10px 10px 5px 10px gray, 15px 15px 5px 10px green, 20px 20px 5px 10px red;
+
+}
+
+/* 
+box-shadow property values (it supports +1 value, unlike text-shadow):
+1st 10px for left-right
+2nd 10 px for top-bottom
+3rd 5px for blur amount
+4th 10px for making the shadow big as box
+5th value for color
+6th value: inset => for making shadow inside the box
+
+Multiple shadows can be given, separated with ','
+*/

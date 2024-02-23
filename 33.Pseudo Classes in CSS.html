@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes in CSS</title>
+    <link rel="stylesheet" href="33.style.css">
+</head>
+<body>
+
+    <ul>
+        <li>List1</li>
+        <li>List2</li>
+        <li>List3</li>
+        <li>List4</li>
+        <li>List5</li>
+        <li>List6</li>
+        <li>List7</li>
+        <li>List8</li>
+        <li>List9</li>
+        <li>List10</li>
+    </ul><br>
+
+    <p>The ceremony is going to be held in <strong id="dolby">The Dolby Theatre</strong>.</p><br><br>
+
+    <p>Element with no content:</p>
+    <div></div>
+    <p>Element with comment:</p>
+    <div><!-- Simple Comment --></div>
+    <p>Element with nested empty element:</p>
+<div><p></p></div>
+
+    <form>
+        name: <input class="textInput1" type="text"><br><br>
+        company name: <input type="text" value="Text prohibited" disabled><br><br>
+        class: <input type="text" required><br><br>
+        standard: <input class="textInput2" type="text" optional><br><br>
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox"><br><br>
+        <input type="submit" value="SubMIT">
+        <input type="reset" value="ResET">
+    </form><br>
+
+    <p><a href="#news1">Jump to target-1.</a></p>
+    <p><a href="#news2">Jump to target-2</a></p>
+
+    <p>Click on the links above and the :target selector highlight the current active HTML anchor.</p>
+
+    <p id="news1"><strong>Target-1 responding.</strong></p>
+    <p id="news2"><strong>Target-2 responding.</strong></p>
+</body>
+</html>
+
+<!-- 
+    <input type="submit" value="SubMIT"> & <input type="reset" value="ResET">
+    These two only works with 'form' tag.
+ -->

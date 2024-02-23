@@ -1,0 +1,28 @@
+.firstDiv{
+    border: 2px solid black;
+    height: 100px;
+    width: 40%;
+    /* display: block; wont work as div is block level tag. also height & width wont work. */
+    /*display: inline-block;*/ /*height & width will work.*/
+    display: none; /*this will vanish the content from page. and also the space occupied in the page will not show.*/
+    visibility:hidden; /*this will hide the content but, the space occupied in the page will show.*/
+}
+
+.secondDiv{
+    border: 2px solid red;
+    /* height: 100px; */
+    /* width: 40%; */
+    display: inline;
+}
+
+span{
+    border: 1px solid black;
+    display: block;
+}
+
+a{
+    border: 2px solid green;
+    width: 30%;
+    height: 80px;
+    display: inline-block;
+}

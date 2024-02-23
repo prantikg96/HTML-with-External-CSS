@@ -1,0 +1,50 @@
+#border1{
+    /* border-style: solid;
+    border-width:10px;
+    border-color: #187EB5 #FE2464 #FF4E00 #27C963; */
+
+    /* border: 10px solid #187EB5; */
+
+    /* border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+    border-right-style: ridge; */
+
+    /* border: 10px solid blue;
+    border-radius: 20px; */
+    
+    width:500px;
+    border: 15px solid cadetblue;
+    /* border-radius: 50%; */
+    border-radius:15px 30px 10px 50px;
+}
+
+/* 
+Properties:
+border-style: ridge, unset, outset, inset, solid, dashed, dotted, double, groove, hidden, none.
+border-style: solid; => way-1 for same border style on all 4 sides.
+border-style: double dotted dashed solid;  =>way-2 for 4 different border styles in top, right, bottom & left manner respectively. (follows  in clockwise manner)
+border-style: double dotted;    => way-3 follows to border style top & bottom with first value & right & left with second value.
+border-style: double dotted dashed;     =>way-4 follows double as top, dotted as left & right, dashed as bottom.
+
+border-color: #187EB5 #FE2464 #FF4E00 #27C963; (follows same manner as border-style)
+
+border properties shosn above, i.e., style, width & color can be written in same line with property name 'border':
+border: 10px solid #187EB5;
+
+border styles for particular side:
+border-top-style: dotted;
+border-bottom-style: dashed;
+border-left-style: solid;
+border-right-style: ridge;
+
+for border radius:
+border: 10px solid blue;
+border-radius: 20px;
+
+for making the border in circular shape:
+width:500px;
+border: 15px solid cadetblue;
+border-radius: 50%;
+
+*/

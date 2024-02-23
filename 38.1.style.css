@@ -1,0 +1,66 @@
+.parentDiv{
+    border: 3px dotted red;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+
+.child1{
+    background-color: yellowgreen;
+    border: 3px solid purple;
+    width: 100px;
+    height: 100px;
+    float: left;
+    overflow: auto;
+}
+
+.child2{
+    background-color: cadetblue;
+    border: 3px solid darkred;
+    width: 100px;
+    height: 100px;
+    float: right;
+    clear: both;
+}
+
+.child3{
+    background-color: brown;
+    border: 3px solid rgb(5, 238, 16);
+    text-shadow: 5px 5px 5px yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 150px;
+}
+
+.img1{
+    width: 500px;
+    float: left;
+    margin: 20px;
+}
+
+.p1{
+    border: 2px solid black;
+    width: 600px;
+    float:right;
+    
+}
+.p2{
+    border: 2px solid red;
+    width: 600px;
+    float:left;
+    
+}
+
+.p3{
+    margin: 20px;
+    /* clear: both; */  /*p1 & p2 er middle theke shore giye niche chole jabe*/
+}
+
+.img2{
+    border: 2px solid black;
+    height: 150px;
+    margin: 10px;
+    float: left;
+    /* clear:right; */
+}

@@ -1,0 +1,39 @@
+.parent{
+    background-color: indianred;
+    display: flex;
+    justify-content: center;
+
+    /* flex-direction: row;  */ /*default*/
+    /* flex-direction: row-reverse;  */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap: nowrap; default*/
+    /* flex-wrap: wrap; */
+
+    /* works as shorthand for flex-direction & flex-wrap */
+    flex-flow: row wrap;
+    /* flex-flow: row-reverse wrap; */
+    /* flex-flow: column wrap; */
+    /* flex-flow: column-reverse wrap; */
+
+    /* flex-flow: row nowrap; */
+    /* flex-flow: row-reverse nowrap; */
+    /* flex-flow: column nowrap; */
+    /* flex-flow: column-reverse nowrap; */
+}
+
+.child{
+    background-color: blueviolet;
+    padding: 30px 70px;
+    border: 3px solid black;
+    color: white;
+    font-size: 40px;
+    margin: 40px;
+    width: 200px;
+}
+
+.child2{
+    /* flex-basis: 500px; used to increase width. not used much. instead of this, use width property only. */
+    width: 600px;
+}

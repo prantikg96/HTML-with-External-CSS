@@ -1,0 +1,38 @@
+#box{
+    width: 200px;
+    height: 150px;
+    background-color: green;
+
+    /*shorthand->transition: property, duration, timing-function, delay;*/ /*delay not used much*/
+    /* transition: width, 2s; */
+
+    transition: 2s;
+    /* transition-property: width, height, background-color; can use 'all' instead of writing so many */
+    /* transition-property:all; */
+
+    /* transition-property:background-color; */
+    /* transition-duration: 2s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease; default */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function:step-start; */
+    /* transition-timing-function:step-end; nothing will happen */
+}
+
+#box:hover{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    text-align: center;
+}
+
+
+/* 
+Best practice is to use shorthand, i.e, 
+in #box, transition:2s; and in #box:hover, width: 500px; etc.
+
+no need to use so many properties of transition. just shown for understanding how it all works.
+*/

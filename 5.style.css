@@ -1,0 +1,39 @@
+body{
+    background-color:#3D3D45;
+}
+.para-1{
+    background-color:black;
+    color:orange;
+}
+.para-2{
+    background-image:url('Images/5.Red\ And\ Black\ Background.gif');
+    color:greenyellow;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    /* background-attachment:scroll; scroll is default */
+    background-attachment:fixed;
+}
+.para-3{
+    background-image:url('Images/4.Links\ &\ Images.png'),url(Images/400x400bb.jpg);
+    color:cyan;
+    background-repeat: no-repeat;
+    background-position:right bottom,left bottom;
+    background-size:20%,20%;
+    background-attachment:fixed;
+}
+
+/* 
+selectors used:
+tag or element selector: body
+class selector: para-1,para-2,para-3
+
+properties with values used:
+background-color:'color name/code etc.';
+color:'color name/code etc.';
+background-image: url('path/image.jpg');
+background repeat: no-repeat(if any small resolution image is selected, then by default, the image repeats the whole area. to avoid that, 'no-repeat' value is used), repeat, repeat-x, repeat-y;
+background-position:center, left right, top, bottom, (right bottom,left bottom for 2 images);
+background-size:cover(mostly used), auto, contain(not recommended);
+background-attachment:fixed, scroll(default);
+*/

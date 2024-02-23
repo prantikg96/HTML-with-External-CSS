@@ -1,0 +1,53 @@
+html{
+    font-size: 20px;
+}
+
+#parent{
+    /* border:2px solid red; */
+    /* width: 500px; */
+    /* height: 50vh; */
+    /* width: 50vw; */
+
+    /* width: 5cm; */
+    /* width: 150mm; */
+    /* width: 8in; */
+    /* width: 300pt; */
+    /* width: 30pc; */
+
+    /* font-size: 40px; */
+
+    font-size: 2rem; /*became like 40px(20px*2rem)*/
+}
+
+#child{
+    /* border: 2px solid black; */
+    /* width: 50%; */
+
+    /* font-size:0.5em; */
+
+    font-size: 2em; /*became like 80px(40px*2em)*/
+}
+
+
+
+/* 
+There are two types of units in CSS:
+1. Absolute- depends on nothing, i.e., its independent.
+2. Relative- it depends on something.
+
+1. There are 6 types of absolute units:
+a. cm: 1cm = 37.7px
+b. mm: 1mm = 3.7px
+c. inch: 1inch = 96px
+d. px
+e. pt(point): 1inch = 72pt
+f. pc(pica): 1pc = 12pt
+
+2. There are 5 types of relative units:
+a. em: it multiplies or doubles its parent.(Eg. suppose, 'parent div' has width:20px. now we want 'child div's' width as 40px. so if we write width:2em in 'clild's div', then it will double the parent div's width as a result for child div.)
+
+b. rem: it works similarly like 'em', but it works for HTML tags, might be its body tag or head tag.
+c. vh(viewport's height): 100vh(size of screen from top to bottom. so if we want half of screen, so we put 100/2=50vh). => vh is auto responsive.
+d. vw(viewport's width): 100vw(size of screen from left to right. so if we want half of screen, so we put 100/2=50vh). => vw is auto responsive.
+e. %: works for parent. if parent has 20px, & if we mention 50% in child, then it will result to (50*20)/100 = 10px.
+*/

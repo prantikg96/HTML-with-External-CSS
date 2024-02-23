@@ -1,0 +1,17 @@
+div{
+    column-count: 4;
+    text-align: justify;
+    column-gap: 30px;
+
+    /* column-rule-style: solid; */
+    /* column-rule-width: 3px; */
+    /* column-rule-color: red; */
+
+    /* shorthand */
+    column-rule: 1px solid black;  /*works just like 'border'*/
+    column-width: 200px; /*works as responsive. columns will reduce or increase according to screen size. */
+}
+
+/* h1{
+    column-span: all; no need. if h1 is inside div then column-span: all; will act just like h1 tag outside div.
+} */

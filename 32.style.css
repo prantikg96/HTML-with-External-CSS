@@ -1,0 +1,66 @@
+h1::first-letter{
+    color:brown;
+}
+
+h1::before{
+    /* content: 'Hello world '; */
+    content:url(Images/icons8-menu.gif);
+}
+
+h1::after{
+    /* content: 'Hello world '; */
+    content:url(Images/download\ \(1\).png);
+}
+
+h1::selection{
+    background-color: brown;
+    color: white;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
+P::first-line{
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+P{
+    color: blueviolet;
+}
+
+.firstpara::selection{
+    background-color: green;
+    color: white;
+}
+
+.fname::placeholder{
+    color: red;
+    font-size: 18px;
+}
+
+/* 
+There ar 6 types of pseudo elements in CSS:
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+    ::placeholder
+
+    How to write pseudo elements:
+    class/id/element selector::after
+    class/id/element selector::before
+    class/id/element selector::first-letter
+    class/id/element selector::first-line
+    class/id/element selector::selection
+    class/id/element selector::placeholder
+
+    Pseudo elements are represented as '::after, while pseudo classes are represented as ':checked'.
+*/

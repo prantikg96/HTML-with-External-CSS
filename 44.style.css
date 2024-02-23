@@ -1,0 +1,49 @@
+body{
+    background-color: #1F1F1F;
+}
+
+.parent{
+    display: grid;
+
+    /* grid-template-columns: 200px; */
+    /* grid-template-columns: 200px 200px; */
+    /* grid-template-columns: 200px 200px 200px; */
+    /* grid-template-columns: 200px 200px 200px 200px; */
+
+    /* to make it responsive & use the full screen: */
+    /* grid-template-columns: auto auto; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* grid-template-columns: auto auto 900px auto; */
+
+    /* shortcut to use repeat(2-> 2 nos. of columns, 200px-> width of each column) function */
+    /* grid-template-columns: repeat(4,200px); */
+    /*grid-template-columns: repeat(3,1fr);*/ /* 1fr means 1 fraction. will work almost as 'auto' */
+
+    grid-template-columns: repeat(3,200px); /*for showing 'justify-content' property*/
+
+    /* grid-template-columns: repeat(4,25%); */
+    /* grid-template-columns: repeat(4,1fr) 200px; here 200px is for creating 5th column */
+    /* grid-template-columns: repeat(4,1fr) 3fr; */
+
+    grid-template-rows: 80px 120px 70px 200px;
+
+    /* grid-column-gap: 50px; */ /*works but obsolete*/
+    /* grid-row-gap: 50px; */ /*works but obsolete*/
+
+    /* shortcut for row & column gap: */
+    /* grid-gap: 50px 10px;  */ /*works but obsolete*/
+
+    gap: 60px 10px;
+
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+
+.child{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: wheat;
+}

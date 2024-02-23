@@ -1,0 +1,155 @@
+/* background:linear-gradient */
+
+#box1{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto;
+    color: white;
+
+    background:linear-gradient(red,green,yellow,blue,aquamarine,indigo);
+    
+}
+
+#box2{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    background:linear-gradient(to right,red,green,yellow,blue,aquamarine,indigo);
+}
+
+#box3{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    background:linear-gradient(to left,red,green,yellow,blue,aquamarine,indigo);
+}
+
+#box4{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    background:linear-gradient(to bottom right,red,green,yellow,blue,aquamarine,indigo);
+}
+#box5{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    background:linear-gradient(to bottom left,red,green,yellow,blue,aquamarine,indigo);
+}
+
+#box6{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    background:linear-gradient(to top left,red,green,yellow,blue,aquamarine,indigo);
+}
+
+#box7{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    background:linear-gradient(to top right,red,green,yellow,blue,aquamarine,indigo);
+}
+
+#box8{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    background:linear-gradient(200deg,red,green,yellow,blue,aquamarine,indigo);
+}
+
+/* background:repeating-linear-gradient */
+
+#box9{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    /* background:linear-gradient(#D43816 40%,white,green); */
+    /* background:linear-gradient(#D43816 300px,white,green); */
+    background:repeating-linear-gradient(#D43816 20%,white 30%,green 40%);
+}
+
+/* background:radial-gradient */
+
+#box10{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    /* by default, it looks like ellipse */
+    background: radial-gradient(green,red,yellow,indigo,blue);
+}
+
+#box11{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: white;
+
+    /* circle */
+    background: radial-gradient(circle,green,red 50%,yellow);
+}
+
+#box12{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: black;
+
+    /* closest-side at 50% 50% */
+    background: radial-gradient(closest-side at 10% 90%, green,red 50%,yellow);
+}
+
+#box13{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: black;
+
+    /* farthest-side at 50% 50% */
+    background: radial-gradient(farthest-side at 90% 50%, green,red 50%,yellow);
+}
+
+#box14{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    color: black;
+
+    /* farthest-side at 50% 50% */
+    background: repeating-radial-gradient(circle,green 5%,red 5%,yellow 10%);
+}
+
+
+/* Gradient => it collects few colors to give a shape to a background. */

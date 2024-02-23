@@ -1,0 +1,23 @@
+#facebook{
+    color: #316FF6;
+    font-size: 40px;
+}
+
+#youtube{
+    color: #c4302b;
+    font-size: 40px;
+}
+
+#x{
+    color: #20304F;
+    font-size: 40px;
+}
+
+#amazon{
+    color: #FF9900;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+}

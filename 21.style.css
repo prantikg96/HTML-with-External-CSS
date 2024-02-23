@@ -1,0 +1,42 @@
+p{
+    border: 2px solid black;
+    width: 100px;
+    margin:50px auto;
+
+    /* cursor:auto; */
+    /* cursor:all-scroll; */
+    /* cursor:cell; */
+    /* cursor:col-resize; */
+    /* cursor:row-resize; */
+    /* cursor:crosshair; */
+    /* cursor:e-resize; */
+    /* cursor:n-resize; */
+    /* cursor:w-resize; */
+    /* cursor:s-resize; */
+    /* cursor:se-resize; */
+    /* cursor:sw-resize; */
+    /* cursor:ne-resize; */
+    /* cursor:nw-resize; */
+    /* cursor:grab; */
+    /* cursor:grabbing; */
+    /* cursor:help; */
+    /* cursor:not-allowed; */
+    /* cursor:no-drop; */
+    /* cursor:pointer; */
+    /* cursor:progress; */
+    /* cursor:wait; */
+    /* cursor:zoom-in; */
+    /* cursor:zoom-out; */
+    /* cursor:move; => same as 'all-scroll' */
+    /* cursor:alias; */
+    /* cursor:text; => same as auto or deafult */
+    /* cursor:vertical-text; */
+    /* cursor:context-menu; */
+    /* cursor:copy; */
+    cursor:none;
+}
+
+a{
+    cursor:none;
+}
+/* There are 31 cursor values. */

@@ -1,0 +1,51 @@
+.parent{
+    /* border:1px solid black; */
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+}
+
+.divOne{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+
+    position: relative;
+    z-index: 6;
+}
+
+.divTwo{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 50px;
+
+    z-index: 5;
+}
+
+.divThree{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    right: 100px;
+
+    z-index: 3;
+}
+
+
+/* 
+Z-index works like position property(relative & absolute). This property specifies the stack order of an element.
+
+An element with greater stack order is always in front of an element with a lower stack order.
+
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+
+Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+*/

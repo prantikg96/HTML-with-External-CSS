@@ -1,0 +1,33 @@
+.borders{
+    border:3px solid red;
+}
+
+.first{
+    margin-bottom: 100px;
+}
+
+.second{
+    width:300px;
+    background-color: aquamarine;
+    /* padding:100px; */
+    /* margin-left:200px; */
+    margin-top:90px;
+    padding-top: 100px;
+}
+
+.btn{
+    background-color: #f57914;
+    font-family: consolas;
+    font-weight:bolder;
+    width: 250px;
+    border-style:dotted;
+    border-radius: 25px;
+    border-color: brown;
+    padding: 10px 5px 20px 5px;
+    margin-top:100px;
+    margin-bottom:200px;
+}
+
+/* 
+if margin-bottom of first div=100px & margin-bottom of second div is 90px, then 100px & 90px wont be added to create more spaces between the two div. It will just take the GREATER VALUE to work. So, in this case, margin-bottom of first div=100px will WORK & margin-bottom of second div is 90px wont WORK.
+*/

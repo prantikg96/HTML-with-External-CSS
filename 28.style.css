@@ -1,0 +1,51 @@
+.normal{
+    /* list-style-type:circle; */
+    /* list-style-type:disc; default */
+    /* list-style-type:square; */
+    /* list-style-type:none; */
+
+    /* list-style-position: inside; */
+    /* list-style-position: outside; default */
+    
+    /* list-style-image: url(Images/download\ \(1\).png); */
+
+    /* shorthand */
+    list-style: circle inside url(Images/download\ \(1\).png);
+}
+
+.normal li{
+    border: 2px solid red;
+}
+
+ol{
+    /*list-style-type: upper-alpha;*/
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-roman; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type: decimal; default */
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: none; */
+
+    /* list-style-position: inside; */
+    /* list-style-position: outside; default */
+    
+    /* list-style-image: url(Images/small-icon-images-28.png); */
+
+    /* shorthand */
+    list-style: lower-roman inside url(Images/small-icon-images-28.png);
+}
+
+ol li{
+    border: 1px solid aquamarine;
+}
+
+#type-string{
+    /* list-style-type:'☞ '; */
+    list-style-type:' \2620 ';
+    list-style-position: inside;
+    line-height: 40px;
+}
+
+
+/* Online Photoshop: https://www.photopea.com/ */
+/* Symbols for HTML & CSS: https://www.toptal.com/designers/htmlarrows/symbols/ */

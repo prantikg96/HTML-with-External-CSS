@@ -1,0 +1,69 @@
+.divOne{
+    width: 500px;
+    border: 3px solid black;
+    background-color: antiquewhite;
+    float: left;
+}
+
+.divTwo{
+    width: 500px;
+    border: 3px solid red;
+    background-color: beige;
+    float: right;
+}
+
+.divThree{
+    width: 100%;
+    border: 3px solid green;
+    background-color: rebeccapurple;
+    padding: 30px 0;
+    /* float: left; */
+    clear: both;
+    /* clear: right; */
+    
+}
+
+
+#p1{
+    margin: 50px 0;
+    border: 3px solid black;
+    overflow: auto;
+}
+
+.image1{
+    width: 200px;
+    float: left;
+}
+
+
+
+
+
+ul{
+    background-color: green;
+    list-style: none;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+li{
+    float: left;
+    padding: 15px 20px;
+    color: white;
+}
+
+
+
+.image2{
+    float: left;
+    /* float: right; */
+    margin-right: 20px;
+}
+
+/*
+Float property is used to place many html tags side by side. If applied float in child tags, then it will come out from their parent tags. To avoid this problem, we use 'overflow:auto' in parent tag.
+
+Clear property is used when float property is being used, to avoid problems.
+
+Float was majorly used in CSS2, but very rarely used in CSS3, only in emergency or critical situations. Another property is used in CSS3, we'll know it later.
+*/

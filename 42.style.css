@@ -1,0 +1,46 @@
+.parent{
+    background-color: green;
+    border: 3px solid black;
+    height: 500px;
+    margin-top: 20px;
+    
+    display: flex;
+
+    /* justify-content: center; */
+    /* justify-content: flex-end;  'end' or 'right'can also be used. this brings contents to the right side */
+    /* justify-content: flex-start; works by default, i.e, shifts towards left */
+    /* justify-content: space-between;  2 contents will shift to leftmost & rightmost & 1 content at center. */
+    /* justify-content: space-around; displays the flex items with space before, between, and after the lines */
+    /* justify-content: space-evenly; displays the flex items with equal spaces before, between, and after the lines. */
+
+    /* align-items: center; this will bring the contents of child to the center in parent box */
+    /* align-items: end; */
+    align-items: stretch; /*this will stretch the child content vertically to its fullest. will only work when 'height' is being removed from child. */
+}
+
+.child{
+    width: 200px;
+    /* height: 150px; */
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: white;
+    font-size: 35px;
+}
+
+.child2{
+    flex-grow: 1; /* flex-grow:'anynumber'. default=0. it specifies how much the item will grow relative to the rest of the flexible items inside the same container.*/
+    order: 2; /*specifies the order of a flexible item relative to the rest of the flexible items inside the same container.*/
+}
+
+.child1{
+    flex-grow: 1;
+    order: 2; /*this will change the order of items*/
+}
+
+/*
+'display: flex' will only work if there is a parent selector. it wont work if applied on child selectors.
+
+'justify-content' works as horizontal movement, i.e, from left to right.
+'align-items' works as vertical movement, i.e, from top to bottom.
+justify-content & 'align-items' will only works if 'display:flex'.
+*/

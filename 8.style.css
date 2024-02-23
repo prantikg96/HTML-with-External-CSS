@@ -1,0 +1,33 @@
+#div_padding1{
+    border: 10px solid cadetblue;
+
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px; */
+
+    /* padding:80px; */
+    /* padding:100px 20px; */
+    padding:70px 60px 50px 80px;
+}
+
+#button_padding1{
+    padding:20px 10px;
+}
+
+/* 
+for individual side padding properties:
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+for overall side padding in single line:
+    padding:80px;
+
+for top+bottom & left+right padding:
+    padding:100px 20px;
+
+for top, right, bottom, left padding in single property:
+    padding:70px 20px 50px 10px;
+*/

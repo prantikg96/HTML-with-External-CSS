@@ -1,0 +1,43 @@
+/* id selector */
+#heading1{
+    color:red;
+}
+#p_id1{
+    font-family:consolas;
+}
+#p_id2{
+    font-size:200%;
+    color:blueviolet;
+}
+
+/* class selector */
+.class_h3{
+    background-color:greenyellow;
+}
+.span_1{
+    color:coral;
+}
+.pre-1{
+    color:red;
+    font-weight: bolder;
+}
+
+/* Using both id & class in same tag */
+#id_h2{
+    background-color: violet;
+}
+.class_h2{
+    font-family:consolas;
+}
+
+#div_id{
+    text-align:center;
+}
+.class_div1{
+    color:red;
+}
+.class_div2{
+    background-color: yellowgreen;
+}
+
+/* class can have multiple class values separated by spaces, but in case of id only 1 value of id can be given. */

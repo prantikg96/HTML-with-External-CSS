@@ -1,0 +1,26 @@
+/* p{
+    background-color: aqua;
+    font-size: 10px;
+} */ /*we can also write this in @mdeia screen{} method as shown below.*/
+
+@media screen{  /*this method works by default. so it can be given or not given.*/
+    p{
+        background-color: aquamarine;
+        font-size: 20px;
+    }
+}
+
+@media print{ /* method to be executed when trying to print from web */
+    p{
+        background-color: green;
+        font-size: 40px;    /*when trying to print from web, font-size will be 40px */
+    }
+
+    img{
+        display: none; /*when trying to print from web, photo wont be printed */
+    }
+
+    div{
+        width: 300px;
+    }
+}

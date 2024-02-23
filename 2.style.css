@@ -1,0 +1,15 @@
+h2{
+    color:red;
+    background-color: yellowgreen;
+}
+span{
+    font-style:italic;
+    font-family: consolas;
+    background-color: red;
+}
+div{
+    background-color: blueviolet;
+}
+p{
+    color:brown;
+}

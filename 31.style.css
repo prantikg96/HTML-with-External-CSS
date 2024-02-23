@@ -1,0 +1,25 @@
+img{
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+
+    /* object-fit:none; default*/
+    /* object-fit:contain; */
+    /* object-fit:fill; */
+    object-fit:cover;
+
+    /* object-position: top right; */ /*2 values mainly used when using contain*/
+
+    object-position: top;
+}
+
+
+/* 
+
+Object-fit property is used in images and videos. It helps in maintaining proper ratio in the webpage and also it helps to clear-view the image or video.
+values of object-fit: contain, fill, cover, none.
+
+Object-position property is used for proper positioning of image or video.
+values: top, bottom, left, right. OR top center.
+
+*/

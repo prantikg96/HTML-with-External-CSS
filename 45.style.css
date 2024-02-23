@@ -1,0 +1,51 @@
+body{
+    background-color: #1f1f1f;
+}
+
+#parent{
+    display: grid;
+
+    grid-template-columns: repeat(8,1fr);
+    gap: 30px 20px;
+}
+
+#grid{
+    border: 1px solid black;
+    /* height: 70px; */
+    padding: 20px;
+    font-size: 25px;
+    background-color: indianred;
+
+    display: flex;
+    justify-content: center; /* works horizontally, i.e, left to right */
+    align-items: center; /* works vertically, i.e, top to bottom */
+
+    border-radius: 10px;
+}
+
+/* div1 jeta ache, seta chai j tar pasher div2 column er jaiga obdi shey aka nebe*/
+.grid1{
+    /* grid-column-start: 1; */
+    /*grid-column-end: 5;*/ /*grid-column-end jodi 3 daoa hoy tahole seta 2to column er jaiga nebe. similarly jodi 4 boli tahole 3te column er jaiga nebe*/
+
+    /* shorthand property */
+    /*grid-column: 1 / 3;*/     /*1=start / 3=end */
+
+    /* above end rules minuses value by 1. but we can use special keyword 'span' before 'end value to avoid deduction. */
+    grid-column: 1 / span 5;
+}
+
+/* div4 jeta ache, seta chai j tar nicher row er jaiga obdi shey aka nebe*/
+.grid4{
+    /* grid-row-start: 1; */
+    /* grid-row-end: 3; */
+    /* grid-row-end: span 3; */
+
+    /* shorthand property */
+    /* grid-row: 1 / 4; */
+    /* grid-row: 1 / span 4; */
+
+    /* shorthand property to work on both sides, i.e., both for row & column */
+    grid-row: 2 / span 4 ;
+    grid-column: 1 / span 5 ;
+}

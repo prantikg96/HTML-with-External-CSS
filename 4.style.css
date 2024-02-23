@@ -1,0 +1,18 @@
+h1{
+    color:red; /* color name */
+}
+h2{
+    color:#D306EF; /* color code */
+}
+h3{
+    color:#4FB5F7; /* using pixie color picker*/
+}
+h4{
+    color:rgb(241, 149, 10); /* rgb */
+}
+h5{
+    color:rgba(24, 144, 100, 0.5); /* rgba */
+}
+h6{
+    color: #ff81f2; /* hex */
+}

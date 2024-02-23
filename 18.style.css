@@ -1,0 +1,50 @@
+@font-face{
+    font-family: heading;
+    src:url('Fonts/orange\ juice\ 2.0.ttf');
+}
+@font-face{
+    font-family: para;
+    src:url('Fonts/Birthdaycard.otf');
+}
+
+#box1{
+    width:600px;
+    border: 3px dashed brown;
+    margin:60px auto;
+    text-align:center;
+}
+
+#box1 h1{
+   font-family: heading; 
+}
+
+#box1 p{
+    font-family:para;
+}
+
+#box2{
+    width:600px;
+    border: 3px dashed brown;
+    margin:60px auto;
+    text-align:center;
+    
+}
+
+#box2 h2{
+    font-family:'Honk', system-ui;
+
+    /* OR */
+
+    /* font-family:heading,'Honk', system-ui; */
+}
+
+#box2 span{
+    font-family:'Sixtyfour', sans-serif;
+}
+/* 
+its recommended to use 2 font-family in a website. if used more, then site will become slow.
+
+@font-face{font-family:value;   src:url(path);} => for downloaded fonts.
+
+BUT ITS ALWAYS RECOMMENDED TO USE GOOGLE FONTS USING 'LINK', BECAUSE DOWNLOADED FONTS MAY TAKE MUCH TIME TO LOAD AND ALSO MAY NOT BE SUPPORTED IN FEW BROWSERS.
+*/

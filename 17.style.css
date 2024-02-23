@@ -1,0 +1,17 @@
+#box{
+    width:600px;
+    border: 3px dashed brown;
+    margin:60px auto;
+    text-align:center;
+
+    font-family: 'Honk', system-ui;
+    font-size: larger;
+}
+
+#box h1{
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+/* 
+its recommended to use 2 font-family in a website. if used more, then site will become slow.
+*/

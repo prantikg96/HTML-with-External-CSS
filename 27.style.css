@@ -1,0 +1,38 @@
+#box1{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+
+    /* overflow: visible; resize wont work if overflow is visible */
+    overflow: auto;
+    /* resize: horizontal; */
+    /* resize:vertical; */
+    resize: both;
+}
+
+.area{
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    
+    resize: none;
+}
+
+#box2{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+
+    overflow: auto;
+    resize: both;
+}
+
+/* 
+Resize property defines if (and how) an element is resizable by the user.
+Values:
+1. both: The user can resize both the height and width of the element.
+2. horizontal: The user can resize the width of the element.
+3. vertical: The user can resize the height of the element.
+4. none: Default value. The user cannot resize the element.
+*/
